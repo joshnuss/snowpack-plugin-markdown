@@ -1,0 +1,9 @@
+{
+  "name": "snowpack-plugin-markdown",
+  "version": "1.0.0",
+  "description": "A snowpack for importing markdown files",
+  "main": "index.js",
+  "repository": "https://github.com/joshnuss/snowpack-plugin-markdown",
+  "author": "joshnuss@gmail.com",
+  "license": "MIT"
+}
