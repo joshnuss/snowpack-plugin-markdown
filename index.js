@@ -4,7 +4,7 @@ const frontMatter = require('front-matter')
 
 module.exports = function(snowpackConfig, pluginOptions) {
   return {
-    name: 'markdown-plugin',
+    name: 'snowpack-plugin-markdown',
     resolve: { input: [".md"], output: [".js"] },
 
     config() {
