@@ -31,7 +31,7 @@ module.exports = {
 
 ## Front matter
 
-Front matter attributes can be added to the top of any markdown file in YAML format:
+Attributes can be added to the top the file in YAML format:
 
 ```markdown
 ---
@@ -42,7 +42,7 @@ date: 2020-01-01
 # Some markdown
 ```
 
-Then to import it:
+The attributes will be available when imported:
 
 ```js
 import file from './path/to/some/file.md'
