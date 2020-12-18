@@ -5,5 +5,12 @@
   "main": "index.js",
   "repository": "https://github.com/joshnuss/snowpack-plugin-markdown",
   "author": "joshnuss@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "marked": "^1.2.7"
+  },
+  "peerDependencies": {
+    "snowpack": "^2.18.4"
+  }
 }
